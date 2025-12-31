@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prediction Result</title>
+        <style>
+        body {
+            background-color: #b7e2eb;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+
+
+
+
+
+
+        
+    </head>
+
+    <body>
+        <h1>WELCOME TO RESULT</h1>
+        <h4>Below are your results</h4>
+        <p> {{ data }} </p>
+
+        {% for i in data %}
+        <p> {{i}}</p>
+        {% endfor %}
+    </body>
+</html>
